@@ -13,7 +13,7 @@ function App() {
   const [dataAPI, setData] = useState();
   const [itemData, setItemData] = useState();
   const getData = () => {
-    axios.get("http://localhost:5000/api").then((response) => {
+    axios.get("http://localhost:3001/api").then((response) => {
       setData(response.data);
     });
   };

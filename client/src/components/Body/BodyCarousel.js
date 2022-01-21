@@ -4,13 +4,8 @@ function BodyCarousel() {
   const data = [
     {
       image: "./assets/carrosel/1.png",
-    },
-    {
-      image: "./assets/carrosel/2.png",
-    },
-    {
-      image: "./assets/carrosel/3.png",
-    },
+    }
+  
   ];
 
   const captionStyle = {

@@ -1,0 +1,25 @@
+.div {
+  width: 90%;
+}
+
+.navBar {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.navBar li {
+  padding-right: 3em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  font-size: 10px;
+  color: #041e50;
+}
+
+.borderTop {
+  padding-left: 4em;
+  border-top: 1px solid rgba(88, 88, 88, 0.3);
+}

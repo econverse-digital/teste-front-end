@@ -1,0 +1,54 @@
+.div {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 250px;
+  text-align: center;
+}
+
+.div:hover {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(221, 221, 221, 0.5);
+}
+
+.image {
+  padding-top: 15px;
+  width: 218px;
+  transform: translateY(0px);
+  transition: transform 0.3s ease;
+}
+
+.div:hover > .image {
+  width: 218px;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #041e50;
+}
+.description {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+  width: 166px;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #041e50;
+}
+
+.div div {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  width: 100%;
+  height: 200px;
+  border-radius: 50px;
+  text-align: center;
+}

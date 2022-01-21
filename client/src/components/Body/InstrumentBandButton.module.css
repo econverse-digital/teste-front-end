@@ -1,0 +1,24 @@
+.div {
+  height: 170px;
+}
+
+.img {
+  height: 105px;
+  width: 106px;
+  opacity: 0.5;
+}
+
+.img:hover {
+  height: 105px;
+  width: 106px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.instrumentName {
+  padding-top: 15px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}

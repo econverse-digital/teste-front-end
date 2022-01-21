@@ -1,0 +1,44 @@
+.div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div ul {
+  width: 1005px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.div li {
+  display: inline;
+}
+
+.title {
+  padding-top: 1em;
+  color: #041e50;
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 0.1em;
+}
+
+.title span {
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  color: #222222;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+}
+
+.button {
+  margin-top: 2em;
+  margin-bottom: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

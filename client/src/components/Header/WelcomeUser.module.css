@@ -1,0 +1,23 @@
+.ico {
+  font-size: 28px;
+  float: left;
+  color: #041e50;
+  padding-top: 8px;
+}
+
+.userInfo {
+  list-style-type: none;
+  font-size: 10px;
+  color: #041e50;
+  letter-spacing: 0.09em;
+  font-weight: bold;
+}
+
+.userInfo li {
+  height: 11px;
+}
+
+.userInfoAccount {
+  font-size: 7px;
+  color: #041e50;
+}

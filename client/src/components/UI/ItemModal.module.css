@@ -1,0 +1,86 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  height: 355px;
+  width: 769px;
+  z-index: 100;
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.actions {
+  font-size: 11px;
+}
+
+.image {
+  width: 329px;
+  height: 263px;
+  padding-top: 3em;
+  padding-left: 2em;
+}
+
+.imageSide {
+  width: 50%;
+  height: 100%;
+}
+
+.descSide {
+  padding-top: 3em;
+  padding-left: 1em;
+  width: 50%;
+  height: 100%;
+}
+
+.title {
+  color: #041e50;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+.valor {
+  color: #041e50;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.message {
+  color: #041e50;
+  letter-spacing: 0.05em;
+  width: 290px;
+}
+
+.link {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #041e50;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+  padding-bottom: 1em;
+}
+
+.ico {
+  color: #707070;
+  font-size: 30px;
+  padding-right: 1em;
+  padding-top: 0.5em;
+}

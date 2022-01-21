@@ -1,0 +1,23 @@
+.QuickView {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.quick {
+  font-size: 11px;
+  color: #041e50;
+  font-weight: bold;
+}
+
+.span {
+  width: 100%;
+}
+.ico {
+  background-color: #041e50;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}

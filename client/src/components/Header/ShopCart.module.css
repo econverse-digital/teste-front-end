@@ -1,0 +1,28 @@
+.shopcart {
+  float: right;
+  background-color: #041e50;
+  color: white;
+  height: 102px;
+  width: 77px;
+}
+
+.ico {
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+.carrinho {
+  padding-top: 5px;
+  display: block;
+  font-size: 7px;
+  text-align: center;
+}
+
+.itens {
+  padding-top: 5px;
+  display: block;
+  text-align: center;
+  font-size: 10px;
+}

@@ -1,0 +1,61 @@
+.buttonWhite {
+  width: 154px;
+  height: 52px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.buttonWhite:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.buttonWhiteSmall {
+  width: 11px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.buttonWhiteSmall:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.buttonBlue {
+  width: 154px;
+  height: 52px;
+  color: #041e50;
+  background-color: transparent;
+  border: 1px solid #041e50;
+  border-radius: 5px;
+}
+
+.buttonBlue:hover {
+  color: white;
+  background-color: #041e50;
+  transition: 0.3s;
+}
+
+.buttonBlueSmall {
+  width: 111px;
+  height: 35px;
+  color: #041e50;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #041e50;
+  border-radius: 5px;
+}
+
+.buttonBlueSmall:hover {
+  color: white;
+  background-color: #041e50;
+  transition: 0.3s;
+}

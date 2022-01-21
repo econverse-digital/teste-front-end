@@ -1,0 +1,30 @@
+.div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  padding-top: 1em;
+  color: #041e50;
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 0.1em;
+}
+
+.title span {
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  color: #222222;
+  font-size: 12px;
+}
+
+.divSubtitle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 901px;
+  margin-bottom: 4em;
+}

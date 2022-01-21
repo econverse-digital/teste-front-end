@@ -1,51 +1,47 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End
+# Desafio técnico Econverse
 
-### Vem ser #Econverse!
+Esse projeto foi desenvolvido para um desafio técnico da empresa: Econverse e se trata de criar uma página de e-commerce.
 
-Olá! Seja bem vindx ao meu teste! Muito obrigado pela oportunidade, espero que goste!
+## 🛠️ Bibliotecas/Linguagens
+* [Node.js](https://nodejs.org/en/) 
+* [Express.js](https://expressjs.com/pt-br/) 
+* [Cors](https://www.npmjs.com/package/cors)
+* [Axios](https://axios-http.com/docs/intro)
+* [Nodemon](https://www.npmjs.com/package/nodemon)
 
-## Instruções
+## ⚙️ Como utilizar?
 
-- Com o repositório copiado, vá até a pasta root do projeto e execute:
+Clone o repositório abaixo 👇 
+
+```
+git clone https://github.com/luclous/teste-front-end.git
+```
+Depois de feito o clone, abra o diretório onde foi clonado em seu terminal e digite o seguinte código:
 
 ```
 npm install
 ```
 
-- Então execute o comando:
+Após completado as instalação das dependências, execute o comando:
 
 ```
 npx nodemon server.js
 ```
 
-- Com o back-end rodando em um console, abra um novo console e execute o comando:
+Abra um novo console e execute o comando e vá para a pasta:
 
 ```
 cd client
 ```
 
-- Instale os modulos
+Instale os módulos:
 
 ```
 npm install
 ```
 
-- E então abra o front-end com:
+Abra o front-end com:
 
 ```
 npm start
 ```
-
-## Especificações Técnicas
-
-Para esse teste eu criei um simples back-end apenas para lidar com o CORS de forma mais fácil. Por isso é necessário começa-lo antes de entrar na aplicação.
-
-A aplicação está otimizada para rodar dentro do layout proposto no teste, então para efeito de demonstração segue em pequeno gif da aplicação em funcionamento:
-
-![image info](./appPreview1.gif)
-
-## Considerações
-
-Novamente agradeço pelo chance de passar por esse desafio, espero que o resultado tenho sido satisfatório.
-
-Feliz Natal e próspero ano novo!

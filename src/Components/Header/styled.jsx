@@ -86,6 +86,8 @@ export const BoxNav = styled.nav`
   color: #9f9f9f;
   border-radius: 0 0 10px 10px;
   box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+  background-color: white;
+  z-index: 1;
   .oferta {
     color: #fbb900;
   }

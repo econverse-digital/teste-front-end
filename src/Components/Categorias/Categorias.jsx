@@ -5,8 +5,6 @@ import dog2 from "../../Assets/img/categoria/image41.png";
 import dog3 from "../../Assets/img/categoria/image42.png";
 import dog4 from "../../Assets/img/categoria/image43.png";
 
-
-
 const Categorias = () => {
   return (
     <Style.MainContainer>

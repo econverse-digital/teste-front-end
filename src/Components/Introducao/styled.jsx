@@ -6,7 +6,7 @@ export const MainContainer = styled.div`
   width: 100%;
   height: 490px;
   /* position: absolute; */
-  top: 134px;
+  /* top: 134px; */
 
   span {
     position: absolute;

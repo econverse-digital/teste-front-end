@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const MainContainer = styled.div`
   display: flex;
-  /* width: 100vw; */
   margin-left: 56px;
   height: 350px;
 `;
@@ -86,6 +85,5 @@ export const BoxAssinatura = styled.div`
 `;
 
 export const ImgDog = styled.div`
-display: flex;
-
-`
+  display: flex;
+`;

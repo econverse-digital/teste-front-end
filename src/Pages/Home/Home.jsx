@@ -1,4 +1,5 @@
 import React from "react";
+import Blog from "../../Components/Blog/Blog";
 import Categorias from "../../Components/Categorias/Categorias";
 import Header from "../../Components/Header/Header";
 import Introducao from "../../Components/Introducao/Introducao";
@@ -14,6 +15,7 @@ const Home = () => {
       <Categorias />
       <Marcas />
       <Parceiros />
+      <Blog />
     </MainContainer>
   );
 };

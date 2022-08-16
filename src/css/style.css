@@ -97,4 +97,26 @@ header nav ul li a img {
   background-color: #FBB900;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
+}
+
+#categories {
+  max-width: 90%;
+  margin: 80px auto;
+}
+#categories h1 {
+  color: #4D4D4D;
+  margin-bottom: 24px;
+}
+#categories div {
+  display: flex;
+  justify-content: space-between;
+}
+#categories figure img {
+  border-radius: 15px;
+}
+#categories figure figcaption {
+  margin-top: 16px;
+  color: #9F9F9F;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

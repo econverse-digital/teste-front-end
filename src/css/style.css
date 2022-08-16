@@ -5,26 +5,29 @@
   list-style: none;
 }
 
-.header-top {
+header {
+  max-width: 90%;
+  margin: 0 auto;
+}
+header .header-top {
   display: flex;
   justify-content: space-around;
   padding: 6px 0;
 }
-.header-top div {
+header .header-top div {
   display: flex;
 }
-.header-top span {
+header .header-top span {
   color: #FBB900;
 }
-
-.header-mid {
+header .header-mid {
   display: flex;
   justify-content: space-between;
   padding: 12px 0;
   border-top: 2px solid #F0F0F0;
   border-bottom: 2px solid #F0F0F0;
 }
-.header-mid form input {
+header .header-mid form input {
   width: 657px;
   height: 48px;
   border: none;
@@ -35,17 +38,12 @@
   background-repeat: no-repeat;
   background-position: 96%;
 }
-.header-mid ul {
+header .header-mid ul {
   display: flex;
   align-items: center;
 }
-.header-mid ul li {
+header .header-mid ul li {
   padding-left: 32px;
-}
-
-header {
-  max-width: 90%;
-  margin: 0 auto;
 }
 header nav ul {
   display: flex;

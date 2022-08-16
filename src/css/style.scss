@@ -8,55 +8,55 @@ $primaryColor: #FBB900;
   list-style: none;
 }
 
-.header-top {
-  display: flex;
-  justify-content: space-around;
-  padding: 6px 0;
-
-  div {
-    display: flex;
-  }
-
-  span {
-    color: $primaryColor;
-  }
-}
-
-.header-mid {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 0;
-  border-top: 2px solid #F0F0F0;
-  border-bottom: 2px solid #F0F0F0;
-
-  form {
-
-    input {
-      width: 657px;
-      height: 48px;
-      border: none;
-      border-radius: 15px;
-      padding-left: 24px;
-      background-color: #FEF6E7;
-      background-image: url(../assets/header/mid/MagnifyingGlass.png);
-      background-repeat: no-repeat;
-      background-position: 96%;
-    }
-  }
-
-  ul {
-    display: flex;
-    align-items: center;
-
-    li {
-      padding-left: 32px;
-    }
-  }
-}
-
 header {
   max-width: 90%;
   margin: 0 auto;
+
+  .header-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px 0;
+
+    div {
+      display: flex;
+    }
+
+    span {
+      color: $primaryColor;
+    }
+  }
+
+  .header-mid {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-top: 2px solid #F0F0F0;
+    border-bottom: 2px solid #F0F0F0;
+
+    form {
+
+      input {
+        width: 657px;
+        height: 48px;
+        border: none;
+        border-radius: 15px;
+        padding-left: 24px;
+        background-color: #FEF6E7;
+        background-image: url(../assets/header/mid/MagnifyingGlass.png);
+        background-repeat: no-repeat;
+        background-position: 96%;
+      }
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+
+      li {
+        padding-left: 32px;
+      }
+    }
+  }
 
   nav {
     ul {

@@ -2,4 +2,73 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  border-radius: 10px;
+}
+header .header-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+header .header-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 6px 0;
+}
+header .header-top div {
+  display: flex;
+  align-items: center;
+}
+header .header-top div p {
+  color: #9F9F9F;
+}
+header .header-top div img {
+  padding-right: 9px;
+}
+header .header-top span {
+  color: #FBB900;
+}
+header .header-mid {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-top: 2px solid #F0F0F0;
+  border-bottom: 2px solid #F0F0F0;
+}
+header .header-mid form input {
+  width: 657px;
+  height: 48px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 24px;
+  background-color: #FEF6E7;
+  background-image: url(../assets/header/mid/MagnifyingGlass.png);
+  background-repeat: no-repeat;
+  background-position: 96%;
+}
+header .header-mid ul {
+  display: flex;
+  align-items: center;
+}
+header .header-mid ul li {
+  padding-left: 32px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li {
+  padding: 11px 0;
+}
+header nav ul li a {
+  display: flex;
+  align-items: center;
+  color: #9F9F9F;
+}
+header nav ul li a img {
+  padding-right: 10px;
 }/*# sourceMappingURL=style.css.map */

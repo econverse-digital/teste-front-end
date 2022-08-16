@@ -6,9 +6,6 @@
   text-decoration: none;
 }
 
-header {
-  border-radius: 10px;
-}
 header .header-container {
   max-width: 90%;
   margin: 0 auto;
@@ -71,4 +68,33 @@ header nav ul li a {
 }
 header nav ul li a img {
   padding-right: 10px;
+}
+
+#banner figure {
+  position: relative;
+}
+#banner figure img {
+  width: 100%;
+}
+#banner figure figcaption {
+  width: 387px;
+  height: 252px;
+  position: absolute;
+  top: 119px;
+  left: 144px;
+}
+#banner figure figcaption p {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+#banner figure figcaption button {
+  margin-top: 2rem;
+  width: 131px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FBB900;
+  color: #fff;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

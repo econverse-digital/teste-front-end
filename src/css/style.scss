@@ -168,3 +168,45 @@ header {
   border: $bd;
   height: 400px;
 }
+
+#brand {
+  max-width: 90%;
+  margin: 80px auto;
+
+  .brand-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border: $bd;
+    margin-bottom: 32px;
+
+    h1 {
+      color: #4D4D4D;
+    }
+
+    a {
+      color: $primaryColor;
+      border-bottom: 1px solid $primaryColor;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      width: 178px;
+      height: 178px;
+      box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+      border-radius: 20px;
+      border: 1px solid #E5E5E5;
+      display: flex;
+      align-items: center;
+
+      a {
+        margin: 0 auto;
+      }
+    }
+  }
+
+}

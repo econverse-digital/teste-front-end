@@ -125,4 +125,38 @@ header nav ul li a img {
   text-align: center;
   border: 1px solid #000;
   height: 400px;
+}
+
+#brand {
+  max-width: 90%;
+  margin: 80px auto;
+}
+#brand .brand-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+#brand .brand-title h1 {
+  color: #4D4D4D;
+}
+#brand .brand-title a {
+  color: #FBB900;
+  border-bottom: 1px solid #FBB900;
+}
+#brand ul {
+  display: flex;
+  justify-content: space-between;
+}
+#brand ul li {
+  width: 178px;
+  height: 178px;
+  box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+  border-radius: 20px;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
+}
+#brand ul li a {
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

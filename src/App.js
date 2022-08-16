@@ -1,12 +1,10 @@
-
+import Header from "./components/layout/Header";
+import "./css/global.css";
 
 function App() {
   return (
     <div>
-      <header>
-        header
-        <nav></nav>
-      </header>
+      <Header />
       <main>banner da moça com o cachorrinho</main>
       <section>categorias</section>
       <section>meu cachorro...</section>
@@ -20,9 +18,7 @@ function App() {
         artigos
         <article>cards de artigo</article>
       </section>
-      <section>
-        Instagram
-      </section>
+      <section>Instagram</section>
       <section>
         inscrição
         {/* <img>imagem cachorrin</img> */}

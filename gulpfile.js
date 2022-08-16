@@ -5,14 +5,14 @@ const sass = require("gulp-sass")(require("sass"));
 
 function buildStyles() {
   return gulp
-    .src("./sass/**/*.scss")
+    .src("./src/sass/**/*.scss")
     .pipe(sass().on("error", sass.logError))
-    .pipe(gulp.dest("./css"));
+    .pipe(gulp.dest("./src/css"));
 }
 
 exports.buildStyles = buildStyles;
 exports.watch = function () {
-  gulp.watch("./sass/**/*.scss", ["sass"]);
+  gulp.watch("./src/sass/**/*.scss", ["sass"]);
 };
 
 exports.default = buildStyles;

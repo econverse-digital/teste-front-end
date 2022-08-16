@@ -1,0 +1,39 @@
+@use '../../global';
+
+header {
+  span {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+.logo-spacing {
+
+}
+
+.header-info-container {
+  height: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-search-bar-container {
+  height: 72px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-search-bar-input {
+  height: 48px;
+  width: 657px;
+  border-radius: 10px;
+  background-color: global.$background-color;
+  ::placeholder {
+    font-family: poppins, sans-serif;
+    color: global.$gray;
+  }
+}

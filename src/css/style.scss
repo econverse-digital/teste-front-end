@@ -193,6 +193,7 @@ header {
   ul {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 
     li {
       width: 178px;
@@ -209,4 +210,82 @@ header {
     }
   }
 
+  .brand-cards {
+    display: flex;
+    justify-content: space-between;
+
+    figure {
+      display: flex;
+      border-radius: 20px;
+      width: 574px;
+      height: 350px;
+      align-items: flex-end;
+
+      figcaption {
+        width: 250px;
+        margin: 0 0 40px 40px;
+
+        h1 {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 48px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        button {
+          height: 48px;
+          background-color: $primaryColor;
+          border: none;
+          border-radius: 10px;
+          color: #fff;
+        }
+      }
+    }
+
+    .card-1 {
+      background-image: url(../assets/brand/parceiros.png);
+
+      h1,
+      p {
+        color: #fff;
+      }
+
+      button {
+        width: 131px;
+      }
+
+      img {
+        border-radius: 20px;
+        order: 2;
+      }
+    }
+
+    .card-2 {
+      background-color: #FEF6E7;
+      justify-content: space-between;
+
+      h1 {
+        color: #4D4D4D;
+      }
+
+      p {
+        color: #9F9F9F;
+      }
+
+      button {
+        width: 156px;
+      }
+
+      div {
+        display: flex;
+        align-items: flex-end;
+        order: 2;
+      }
+    }
+  }
 }

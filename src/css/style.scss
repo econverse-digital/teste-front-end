@@ -1,4 +1,4 @@
-$bd: 1px solid black;
+$bd: 1px solid #000;
 $primaryColor: #FBB900;
 $secondColor: #9F9F9F;
 
@@ -100,7 +100,6 @@ header {
 #banner {
 
   figure {
-    // display: inline-block;
     position: relative;
 
     img {
@@ -139,7 +138,6 @@ header {
 #categories {
   max-width: 90%;
   margin: 80px auto;
-  // border: $bd;
 
   h1 {
     color: #4D4D4D;
@@ -161,6 +159,133 @@ header {
       margin-top: 16px;
       color: $secondColor;
       text-align: center;
+    }
+  }
+}
+
+#vitrine {
+  text-align: center;
+  border: $bd;
+  height: 400px;
+}
+
+#brand {
+  max-width: 90%;
+  margin: 80px auto;
+
+  .brand-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border: $bd;
+    margin-bottom: 32px;
+
+    h1 {
+      color: #4D4D4D;
+    }
+
+    a {
+      color: $primaryColor;
+      border-bottom: 1px solid $primaryColor;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+    li {
+      width: 178px;
+      height: 178px;
+      box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+      border-radius: 20px;
+      border: 1px solid #E5E5E5;
+      display: flex;
+      align-items: center;
+
+      a {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .brand-cards {
+    display: flex;
+    justify-content: space-between;
+
+    figure {
+      display: flex;
+      border-radius: 20px;
+      width: 574px;
+      height: 350px;
+      align-items: flex-end;
+
+      figcaption {
+        width: 250px;
+        margin: 0 0 40px 40px;
+
+        h1 {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 48px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        button {
+          height: 48px;
+          background-color: $primaryColor;
+          border: none;
+          border-radius: 10px;
+          color: #fff;
+        }
+      }
+    }
+
+    .card-1 {
+      background-image: url(../assets/brand/parceiros.png);
+
+      h1,
+      p {
+        color: #fff;
+      }
+
+      button {
+        width: 131px;
+      }
+
+      img {
+        border-radius: 20px;
+        order: 2;
+      }
+    }
+
+    .card-2 {
+      background-color: #FEF6E7;
+      justify-content: space-between;
+
+      h1 {
+        color: #4D4D4D;
+      }
+
+      p {
+        color: #9F9F9F;
+      }
+
+      button {
+        width: 156px;
+      }
+
+      div {
+        display: flex;
+        align-items: flex-end;
+        order: 2;
+      }
     }
   }
 }

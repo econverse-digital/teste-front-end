@@ -119,4 +119,109 @@ header nav ul li a img {
   margin-top: 16px;
   color: #9F9F9F;
   text-align: center;
+}
+
+#vitrine {
+  text-align: center;
+  border: 1px solid #000;
+  height: 400px;
+}
+
+#brand {
+  max-width: 90%;
+  margin: 80px auto;
+}
+#brand .brand-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+#brand .brand-title h1 {
+  color: #4D4D4D;
+}
+#brand .brand-title a {
+  color: #FBB900;
+  border-bottom: 1px solid #FBB900;
+}
+#brand ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+#brand ul li {
+  width: 178px;
+  height: 178px;
+  box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+  border-radius: 20px;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
+}
+#brand ul li a {
+  margin: 0 auto;
+}
+#brand .brand-cards {
+  display: flex;
+  justify-content: space-between;
+}
+#brand .brand-cards figure {
+  display: flex;
+  border-radius: 20px;
+  width: 574px;
+  height: 350px;
+  align-items: flex-end;
+}
+#brand .brand-cards figure figcaption {
+  width: 250px;
+  margin: 0 0 40px 40px;
+}
+#brand .brand-cards figure figcaption h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+#brand .brand-cards figure figcaption p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+#brand .brand-cards figure figcaption button {
+  height: 48px;
+  background-color: #FBB900;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+#brand .brand-cards .card-1 {
+  background-image: url(../assets/brand/parceiros.png);
+}
+#brand .brand-cards .card-1 h1,
+#brand .brand-cards .card-1 p {
+  color: #fff;
+}
+#brand .brand-cards .card-1 button {
+  width: 131px;
+}
+#brand .brand-cards .card-1 img {
+  border-radius: 20px;
+  order: 2;
+}
+#brand .brand-cards .card-2 {
+  background-color: #FEF6E7;
+  justify-content: space-between;
+}
+#brand .brand-cards .card-2 h1 {
+  color: #4D4D4D;
+}
+#brand .brand-cards .card-2 p {
+  color: #9F9F9F;
+}
+#brand .brand-cards .card-2 button {
+  width: 156px;
+}
+#brand .brand-cards .card-2 div {
+  display: flex;
+  align-items: flex-end;
+  order: 2;
 }/*# sourceMappingURL=style.css.map */

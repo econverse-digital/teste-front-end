@@ -5,14 +5,14 @@ export const MainContainer = styled.div`
   flex-direction: column;
   width: 100%;
   height: 490px;
-  position: absolute;
+  /* position: absolute; */
   top: 134px;
 
   span {
     position: absolute;
     width: 20px;
     height: 20px;
-    top: 220px;
+    top: 380px;
     font-size: 2rem;
     color: #ffffff;
     :hover {
@@ -32,7 +32,7 @@ export const Info = styled.div`
   width: 450px;
   height: 180px;
   left: 144px;
-  top: 115px;
+  top: 280px;
   color: #ffffff;
   div {
     font-weight: 800;

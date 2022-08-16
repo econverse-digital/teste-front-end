@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        header
+        <nav></nav>
       </header>
+      <main>banner da moça com o cachorrinho</main>
+      <section>categorias</section>
+      <section>meu cachorro...</section>
+      <section>principais marcas</section>
+      <section>
+        cards de destaque
+        <article>Parceiros</article>
+        <article>Assinatura Cãoselheiro </article>
+      </section>
+      <section>
+        artigos
+        <article>cards de artigo</article>
+      </section>
+      <section>
+        Instagram
+      </section>
+      <section>
+        inscrição
+        <img>imagem cachorrin</img>
+        <form>formulario</form>
+      </section>
+      <footer>
+        footer
+        <nav></nav>
+      </footer>
     </div>
   );
 }

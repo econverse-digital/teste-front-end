@@ -15,8 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "gulp-build" : "gulp",
-    "gulp-watch" : "gulp --watch"
+    "gulp-build" : "gulp"
   },
   "eslintConfig": {
     "extends": [

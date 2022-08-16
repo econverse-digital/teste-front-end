@@ -11,8 +11,13 @@ $secondColor: #9F9F9F;
 }
 
 header {
-  max-width: 90%;
-  margin: 0 auto;
+  // border-bottom: 5px solid black;
+  border-radius: 10px;
+
+  .header-container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 
   .header-top {
     display: flex;

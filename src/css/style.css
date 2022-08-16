@@ -7,6 +7,9 @@
 }
 
 header {
+  border-radius: 10px;
+}
+header .header-container {
   max-width: 90%;
   margin: 0 auto;
 }

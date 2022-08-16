@@ -1,4 +1,4 @@
-$bd: 1px solid black;
+$bd: 1px solid #000;
 $primaryColor: #FBB900;
 $secondColor: #9F9F9F;
 
@@ -100,7 +100,6 @@ header {
 #banner {
 
   figure {
-    // display: inline-block;
     position: relative;
 
     img {
@@ -139,7 +138,6 @@ header {
 #categories {
   max-width: 90%;
   margin: 80px auto;
-  // border: $bd;
 
   h1 {
     color: #4D4D4D;
@@ -163,4 +161,10 @@ header {
       text-align: center;
     }
   }
+}
+
+#vitrine {
+  text-align: center;
+  border: $bd;
+  height: 400px;
 }

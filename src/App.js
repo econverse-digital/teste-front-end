@@ -1,3 +1,5 @@
+
+
 function App() {
   return (
     <div>
@@ -23,7 +25,7 @@ function App() {
       </section>
       <section>
         inscrição
-        <img>imagem cachorrin</img>
+        {/* <img>imagem cachorrin</img> */}
         <form>formulario</form>
       </section>
       <footer>

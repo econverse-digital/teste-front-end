@@ -1,0 +1,1 @@
+// amarelo e branco, branco e cinza, grande, pequeno e médio

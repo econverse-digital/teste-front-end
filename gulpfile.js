@@ -1,15 +1,15 @@
-var gulp     = require('gulp');
-var plumber  = require('gulp-plumber');
-var uglify   = require('gulp-uglify');
-var concat   = require('gulp-concat');
-var rename   = require('gulp-rename');
+let gulp     = require('gulp');
+let plumber  = require('gulp-plumber');
+let uglify   = require('gulp-uglify');
+let concat   = require('gulp-concat');
+let rename   = require('gulp-rename');
  
 // Source Path
-var js_src   = "./src/js/*.js";
+let js_src   = "./src/js/*.js";
  
 // Dist Path
-var js_dist  = "./js/";
-var js_dist_name = "scripts.js";
+let js_dist  = "./js/";
+let js_dist_name = "scripts.js";
  
 // Minify e Concat Scripts
 gulp.task('scripts', function() {

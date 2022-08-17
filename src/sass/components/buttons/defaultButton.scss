@@ -1,0 +1,25 @@
+@use "../../global";
+
+.default-button-styling {
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.medium-orange-button {
+  padding: 12px 24px;
+  color: global.$white;
+  background-color: global.$primary-color;
+
+  border: 1px solid global.$secondary-color;
+  border-radius: 10px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

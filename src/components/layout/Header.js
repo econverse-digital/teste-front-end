@@ -1,9 +1,11 @@
 import "../../css/components/layout/header.css";
-import { headerInfos } from "../../helpers/headerInfo";
+import { headerInfos, menuIcons, navButtons } from "../../helpers/header";
+import HeaderNavButton from "../buttons/HeaderNavButton";
+import HeaderIcon from "../HeaderIcon";
 import HeaderInfo from "../HeaderInfo";
 
 const Header = () => {
-  const mappingHeaderInfos = headerInfos.map((headerInfo) => {
+  const mappedHeaderInfos = headerInfos.map((headerInfo) => {
     return (
       <HeaderInfo
         icon={headerInfo.icon}
@@ -18,22 +20,40 @@ const Header = () => {
     );
   });
 
+  const mappedMenuIcons = menuIcons.map((icon) => {
+    return (
+      <HeaderIcon icon={icon.icon} iconDescription={icon.iconDescription} key={icon.id} />
+    );
+  });
+
+  const mappedHeaderNavButtons = navButtons.map((button) => {
+    return (
+      <HeaderNavButton
+        buttonName={button.buttonName}
+        buttonColor={button.buttonColor}
+        icon={button.icon}
+        key={button.id}
+      />
+    );
+  });
+
   return (
     <header>
-      <div className="header-info-container">{mappingHeaderInfos}</div>
+      <div className="header-info-container">{mappedHeaderInfos}</div>
       <div className="header-search-bar-container">
         <img
-          className="logo-spacing"
           width={178}
           height={46}
           src="./assets/images/Logo.png"
           alt="Logo da 'O Cãoselheiro' "
         />
-        <input className="header-search-bar-input"
-        placeholder="O que você está buscando?" />
-        <div>icones</div>
+        <input
+          className="header-search-bar-input"
+          placeholder="O que você está buscando?"
+        />
+        <div className="icons-container">{mappedMenuIcons}</div>
       </div>
-      <nav>barra de navegação</nav>
+      <nav>{mappedHeaderNavButtons}</nav>
     </header>
   );
 };

@@ -1,5 +1,20 @@
 html,
 body {
   font-family: poppins, sans-serif;
-  color: #9F9F9F;
+  color: #9f9f9f;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #4d4d4d;
 }

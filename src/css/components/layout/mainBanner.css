@@ -1,0 +1,65 @@
+html,
+body {
+  font-family: poppins, sans-serif;
+  color: #9f9f9f;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+
+.main-banner-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  top: -10px;
+  background-image: url(../../../../public/assets/images/LadyAndDog.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1280px;
+  height: 490px;
+  z-index: 0;
+}
+.main-banner-container .details-container {
+  position: relative;
+  left: 144px;
+  bottom: 10px;
+}
+.main-banner-container .details-container button {
+  position: absolute;
+  top: 204px;
+}
+.main-banner-container .left-arrow-spacing {
+  position: absolute;
+  left: 56px;
+}
+.main-banner-container .three-dots-spacing {
+  position: absolute;
+  top: 438px;
+  left: 606px;
+}
+.main-banner-container .middle-arrow-spacing {
+  position: absolute;
+  top: 474px;
+  left: 624px;
+}
+.main-banner-container .right-arrow-spacing {
+  position: absolute;
+  right: 56px;
+  transform: rotate(180deg);
+}
+
+main h1 {
+  width: 387px;
+}

@@ -1,12 +1,13 @@
 import Header from "./components/layout/Header";
+import MainBanner from "./components/layout/MainBanner";
 import "./css/global.css";
 
 function App() {
   return (
     <div>
       <Header />
-      <main>banner da moça com o cachorrinho</main>
-      <section>categorias</section>
+      <MainBanner />
+      {/* <section>categorias</section>
       <section>meu cachorro...</section>
       <section>principais marcas</section>
       <section>
@@ -21,13 +22,13 @@ function App() {
       <section>Instagram</section>
       <section>
         inscrição
-        {/* <img>imagem cachorrin</img> */}
+        <img>imagem cachorrin</img>
         <form>formulario</form>
       </section>
       <footer>
         footer
         <nav></nav>
-      </footer>
+      </footer> */}
     </div>
   );
 }

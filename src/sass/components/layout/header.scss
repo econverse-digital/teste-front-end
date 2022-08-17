@@ -1,16 +1,70 @@
-@use '../../global';
+@use "../../global";
 
 header {
+  background-color: global.$white;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+  position: sticky;
+  top: 0;
+  width: 1280px;
+  height: 144px;
+  z-index: 10;
   span {
     font-size: 12px;
     line-height: 18px;
     text-align: center;
     font-weight: 500;
   }
+
+  nav {
+    display: flex;
+    font-size: 12px;
+    height: 40px;
+    line-height: 18px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  button {
+    background-color: global.$white;
+    color: global.$gray;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    border: none;
+  }
 }
 
-.logo-spacing {
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: global.$gray;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
 
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: global.$gray;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: global.$gray;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: global.$gray;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .header-info-container {
@@ -25,15 +79,25 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: 1px solid;
+  border-color: rgba(159, 159, 159, 0.2);
 }
 
 .header-search-bar-input {
   height: 48px;
   width: 657px;
   border-radius: 10px;
+  padding-left: 24px;
   background-color: global.$background-color;
-  ::placeholder {
-    font-family: poppins, sans-serif;
-    color: global.$gray;
-  }
+  border-style: none;
+  outline: none;
+  background-image: url(../../../../public/assets/icons/MagnifyingGlass.png);
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

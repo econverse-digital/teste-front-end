@@ -1,0 +1,53 @@
+@use "../../global";
+
+.main-banner-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  top: -10px;
+  background-image: url(../../../../public/assets/images/LadyAndDog.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1280px;
+  height: 490px;
+  z-index: 0;
+
+  .details-container {
+    position: relative;
+    left: 144px;
+    bottom: 10px;
+    button {
+      position: absolute;
+      top: 204px;
+    }
+  }
+
+  .left-arrow-spacing {
+    position: absolute;
+    left: 56px;
+  }
+
+  .three-dots-spacing {
+    position: absolute;
+    top: 438px;
+    left: 606px;
+  }
+
+  .middle-arrow-spacing {
+    position: absolute;
+    top: 474px;
+    left: 624px;
+  }
+
+  .right-arrow-spacing {
+    position: absolute;
+    right: 56px;
+    transform: rotate(180deg);
+  }
+}
+
+main {
+  h1 {
+    width: 387px;
+  }
+}

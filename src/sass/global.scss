@@ -1,12 +1,27 @@
-$primary-color: #FBB900;
-$secondary-color: #F0D075;
-$background-color: #FEF6E7;
-$white: #FFFFFF;
-$gray: #9F9F9F;
-$black: #4D4D4D;
+$primary-color: #fbb900;
+$secondary-color: #f0d075;
+$background-color: #fef6e7;
+$white: #ffffff;
+$gray: #9f9f9f;
+$black: #4d4d4d;
 
 html,
 body {
-    font-family: poppins, sans-serif;
-    color: $gray;
+  font-family: poppins, sans-serif;
+  color: $gray;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 800;
+  color: $white;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: $black;
 }

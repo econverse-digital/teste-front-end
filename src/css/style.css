@@ -224,4 +224,40 @@ header nav ul li a img {
   display: flex;
   align-items: flex-end;
   order: 2;
+}
+
+#blog {
+  max-width: 90%;
+  margin: 80px auto;
+}
+#blog h1 {
+  margin-bottom: 32px;
+}
+#blog .card-container {
+  display: flex;
+  justify-content: space-between;
+}
+#blog figure {
+  width: 277px;
+  border-radius: 15px;
+  background-color: #FEF6E7;
+}
+#blog figure img {
+  border-radius: 15px 15px 0 0;
+}
+#blog figure figcaption {
+  width: 230px;
+  margin: 0 auto;
+}
+#blog figure figcaption h1 {
+  margin-top: 20px;
+}
+#blog figure figcaption button {
+  margin: 20px 0;
+  width: 150px;
+  height: 48px;
+  background-color: #FBB900;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

@@ -289,3 +289,45 @@ header {
     }
   }
 }
+
+#blog {
+  max-width: 90%;
+  margin: 80px auto;
+
+  h1 {
+    margin-bottom: 32px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  figure {
+    width: 277px;
+    border-radius: 15px;
+    background-color: #FEF6E7;
+
+    img {
+      border-radius: 15px 15px 0 0;
+    }
+    figcaption {
+      width: 230px;
+      margin: 0 auto;
+
+      h1 {
+        margin-top: 20px;
+      }
+
+      button {
+        margin: 20px 0;
+        width: 150px;
+        height: 48px;
+        background-color: $primaryColor;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+      }
+    }
+  }
+}

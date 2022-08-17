@@ -311,6 +311,7 @@ header {
     img {
       border-radius: 15px 15px 0 0;
     }
+
     figcaption {
       width: 230px;
       margin: 0 auto;
@@ -329,5 +330,30 @@ header {
         color: #fff;
       }
     }
+  }
+}
+
+#instagram {
+  max-width: 90%;
+  margin: 80px auto;
+
+  .instagram-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+
+    h1 {
+      color: #4D4D4D;
+    }
+
+    a {
+      color: $primaryColor;
+      border-bottom: 1px solid $primaryColor;
+    }
+  }
+
+  ul {
+    display: flex;
   }
 }

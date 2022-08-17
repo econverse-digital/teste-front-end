@@ -260,4 +260,25 @@ header nav ul li a img {
   border: none;
   border-radius: 10px;
   color: #fff;
+}
+
+#instagram {
+  max-width: 90%;
+  margin: 80px auto;
+}
+#instagram .instagram-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+#instagram .instagram-title h1 {
+  color: #4D4D4D;
+}
+#instagram .instagram-title a {
+  color: #FBB900;
+  border-bottom: 1px solid #FBB900;
+}
+#instagram ul {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

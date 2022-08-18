@@ -1,5 +1,115 @@
+.categories-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 88px;
+  width: 1280px;
+}
+
+.categories-container {
+  width: 1168px;
+}
+
+.category-cards-container {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.category-left-arrow {
+  position: absolute;
+  left: 40px;
+  transform: rotate(90deg);
+}
+
+.category-right-arrow {
+  position: absolute;
+  left: 1208px;
+  transform: rotate(270deg);
+}
+
+.title-underlined-button, h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+html,
+body {
+  font-family: poppins, sans-serif;
+  color: #9f9f9f;
+}
+html h1,
+body h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 800;
+  color: #ffffff;
+}
+html h2,
+body h2 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+html p,
+body p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.my-dog-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 64px;
+  align-items: center;
+  width: 1280px;
+}
+
+.my-dog-container {
+  width: 1168px;
+}
+
+.nav-bar-left-arrow {
+  transform: rotate(180deg);
+}
+
+.my-dog-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.product-cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+}
+
+.title-underlined-button, h4 {
+  color: #fbb900;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
 .section-title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+h4 {
+  margin: 0;
+  margin-right: 56px;
 }

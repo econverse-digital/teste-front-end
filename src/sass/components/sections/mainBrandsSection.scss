@@ -1,0 +1,26 @@
+@use "../../global";
+
+.main-brands-section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-cards-container {
+  display: flex;
+  width: 1168px;
+  margin-top: 32px;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.brand-card {
+  background-color: global.$white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 178px;
+  height: 178px;
+  border-radius: 20px;
+  border: 1px solid global.$gray-two;
+  box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+}

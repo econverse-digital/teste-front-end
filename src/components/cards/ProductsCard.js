@@ -8,14 +8,21 @@ const ProductsCard = (props) => {
         <div className="product-discount-percentage-box">
           <p className="product-discount-percentage-text">40% OFF</p>
         </div>
-        <div className="product-card-info">
+        <div
+          onClick={() => {
+            props.modalSetter(true);
+            props.modalDataSetter(props.product);
+            props.modalImageSetter(props.image);
+          }}
+          className="product-card-info"
+        >
           <img
             width={180}
             height={180}
             src={`./assets/images/products/${props.image}`}
             alt={props.description}
           />
-          <h3 className="product-name">{props.productName}</h3>
+          <h3 className="product-name">{props.product.productName}</h3>
           <h4 className="product-old-price">De R$ 96,69</h4>
           <div className="product-price">
             <span className="format-one">Por</span>{" "}

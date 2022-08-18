@@ -27,9 +27,15 @@ export const categoriesInfos = [
 ];
 
 export const productFilterButtons = [
-  { buttonName: "É agitado", buttonType: "small-orange-button" },
-  { buttonName: "Morde", buttonType: "small-white-button" },
-  { buttonName: "Late muito", buttonType: "small-white-button" },
-  { buttonName: "É ansioso", buttonType: "small-white-button" },
-  { buttonName: "É estressado", buttonType: "small-white-button" },
+  { buttonName: "É agitado", buttonType: "small-orange-button", id: "0" },
+  { buttonName: "Morde", buttonType: "small-white-button", id: "1" },
+  { buttonName: "Late muito", buttonType: "small-white-button", id: "2" },
+  { buttonName: "É ansioso", buttonType: "small-white-button", id: "3" },
+  { buttonName: "É estressado", buttonType: "small-white-button", id: "4" },
 ];
+
+export const brandsLogos = [
+  { logo: "Buddy.png", name:"Buddy", id: "0"},
+  { logo: "PetGames.png", name:"Pet Games", id: "1"},
+  { logo: "Kong.png", name:"Kong", id: "2"},
+]

@@ -44,7 +44,7 @@ const Header = () => {
         <img
           width={178}
           height={46}
-          src="./assets/images/Logo.png"
+          src="./assets/logos/Caoselheiro.png"
           alt="Logo da 'O Cãoselheiro' "
         />
         <input

@@ -6,6 +6,7 @@ const SectionTitle = (props) => {
     <div className="section-title-container">
       <h2>{props.title}</h2>
       {props.productNav ? <MyDogCategoriesNavBar /> : null}
+      {props.customizedTitleButton && <h4>{props.customizedTitleButton}</h4>}
     </div>
   );
 };

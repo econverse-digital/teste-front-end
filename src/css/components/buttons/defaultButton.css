@@ -30,6 +30,7 @@ body p {
 .default-button-styling {
   border-radius: 10px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .medium-orange-button, .small-orange-button, .small-white-button, .big-orange-button {

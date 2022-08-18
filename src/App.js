@@ -6,10 +6,14 @@ import SectionTitle from "./components/SectionTitle";
 import { getProducts } from "./services/products";
 import React, { useState, useEffect } from "react";
 import "./css/global.css";
+import DefaultModal from "./components/modal/DefaultModal";
+import MainBrandsSection from "./components/sections/MainBrandsSection";
 
 function App() {
   const [products, setProducts] = useState([]);
-  const [isModalOn, setisModalOn] = useState(false);
+  const [isModalOn, setIsModalOn] = useState(false);
+  const [modalData, setModalData] = useState({});
+  const [modalImage, setModalImage] = useState("");
 
   useEffect(() => {
     getProducts(setProducts);
@@ -17,13 +21,22 @@ function App() {
 
   return (
     <div>
+      <DefaultModal
+        modalData={modalData}
+        modalImage={modalImage}
+        isModalOn={isModalOn}
+        setIsModalOn={setIsModalOn}
+      />
       <Header />
       <MainBanner />
       <CategorySection />
-      <MyDogSection products={products} />
-      <section>
-        <SectionTitle title="Principais marcas" />
-      </section>
+      <MyDogSection
+        products={products}
+        setIsModalOn={setIsModalOn}
+        setModalData={setModalData}
+        setModalImage={setModalImage}
+      />
+      <MainBrandsSection />
       <section>
         CARDS DE DESTAQUE
         <article>Parceiros</article>

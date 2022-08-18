@@ -1,5 +1,13 @@
+@use "./sections/myDogSection";
+
 .section-title-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  @extend .title-underlined-button;
+  margin: 0;
+  margin-right: 56px;
 }

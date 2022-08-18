@@ -1,0 +1,97 @@
+@use "../../global";
+
+.modal-background-settings {
+  background: rgba(0, 0, 0, 0.54);
+  z-index: 500;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal-invisible {
+  display: none;
+}
+
+.modal-settings {
+  display: flex;
+  background-color: global.$white;
+  border-radius: 5px;
+  width: 769px;
+  height: 355px;
+}
+
+.modal-image {
+  display: flex;
+  width: 384.5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato";
+  font-style: normal;
+  width: 328.5px;
+  margin-left: 5.5px;
+  letter-spacing: 0.05em;
+  h1 {
+    height: 20px;
+    margin:0;
+    color: global.$modal-color;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  h2 {
+    margin:0;
+    margin-top: 30px;
+    color: global.$modal-color;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+  }
+
+  h3 {
+    margin:0;
+    margin-top: 37px;
+    margin-left: 28px;
+    color: global.$modal-color;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 100%;
+  }
+
+  p {
+    margin:0;
+    width: 290px;
+    margin-top: 21px;
+    color: global.$black-two;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150.5%;
+    letter-spacing: 0.05em;
+  }
+
+  .modal-info-price {
+    margin-top: 25px;
+    font-weight: 900;
+  }
+
+  .modal-info-product {
+    margin-top: 67px;
+  }
+}
+
+.modal-close {
+  margin-top: 20px;
+  margin-left: 9px;
+}

@@ -1,9 +1,5 @@
 @use "../../global";
 
-section {
-  margin-bottom: 88px;
-}
-
 .highlights-container {
   width: 1280px;
   display: flex;
@@ -83,4 +79,5 @@ section {
 .highlights-three-dots-icon {
   margin-top: 24px;
   margin-left: 309px;
+  margin-bottom: 88px;
 }

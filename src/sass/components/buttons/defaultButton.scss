@@ -25,6 +25,16 @@
   text-transform: uppercase;
 }
 
+.alternative-medium-orange-button {
+  @extend .medium-orange-button;
+  width: 145px;
+  padding: 10px 32px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 900;
+  box-sizing: border-box;
+}
+
 .big-orange-button {
   @extend .medium-orange-button;
   padding: 12px 58px;
@@ -33,10 +43,6 @@
 .small-orange-button {
   @extend .medium-orange-button;
   letter-spacing: normal;
-  font-size: 14px;
-  line-height: 21px;
-  padding: 10px 16px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 21px;
   padding: 10px 16px;

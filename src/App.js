@@ -10,6 +10,8 @@ import MainBrandsSection from "./components/sections/MainBrandsSection";
 import HighlightsSection from "./components/sections/HighlightsSection";
 import ArticlesSection from "./components/sections/ArticlesSection";
 import InstagramSection from "./components/sections/InstagramSection";
+import NewsletterSection from "./components/sections/NewsletterSection";
+import Footer from "./components/layout/Footer";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -42,15 +44,8 @@ function App() {
       <HighlightsSection />
       <ArticlesSection />
       <InstagramSection />
-      <section>
-        INSCRIÇÃO
-        {/* <img>imagem cachorrin</img> */}
-        <form>*formulario*</form>
-      </section>
-      <footer>
-        footer
-        <nav></nav>
-      </footer>
+      <NewsletterSection />
+      <Footer />
     </div>
   );
 }

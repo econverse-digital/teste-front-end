@@ -1,0 +1,42 @@
+@use "../../global";
+
+footer {
+  background-color: global.$primary-color;
+  width: 1280px;
+  height: 604px;
+}
+
+.footer-company-personal-info {
+  height: 604px;
+  width: 489px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-right: 1px solid global.$white;
+
+  h1 {
+    @extend %big-font;
+    font-weight: 700;
+  }
+
+  .follow-us {
+    width: 319px;
+    height: 72px;
+    padding-top: 48px;
+    padding-bottom: 32px;
+  }
+
+  .about-us {
+    padding-top: 56px;
+    padding-bottom: 24px;
+  }
+
+  .about-us-text {
+    @extend %small-font;
+    color: global.$white;
+    width: 339px;
+    height: 252px;
+    font-weight: 400;
+  }
+}

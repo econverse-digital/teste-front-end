@@ -1,0 +1,73 @@
+.footer-company-personal-info .about-us-text {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.footer-company-personal-info h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+html,
+body {
+  font-family: poppins, sans-serif;
+  color: #9f9f9f;
+}
+html h1,
+body h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 800;
+  color: #ffffff;
+}
+html h2,
+body h2 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+html p,
+body p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #fbb900;
+  width: 1280px;
+  height: 604px;
+}
+
+.footer-company-personal-info {
+  height: 604px;
+  width: 489px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-right: 1px solid #ffffff;
+}
+.footer-company-personal-info h1 {
+  font-weight: 700;
+}
+.footer-company-personal-info .follow-us {
+  width: 319px;
+  height: 72px;
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+.footer-company-personal-info .about-us {
+  padding-top: 56px;
+  padding-bottom: 24px;
+}
+.footer-company-personal-info .about-us-text {
+  color: #ffffff;
+  width: 339px;
+  height: 252px;
+  font-weight: 400;
+}

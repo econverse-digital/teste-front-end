@@ -1,0 +1,85 @@
+@use "../../global";
+@use "../layout/header.scss";
+
+.newsletter-section-container {
+  width: 1280px;
+  height: 617px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 281px;
+    height: 104px;
+    margin: auto;
+  }
+
+  form {
+    display: flex;
+    background-color: global.$background-color;
+    width: 772px;
+    height: 346px;
+    border-radius: 20px;
+
+    h1 {
+      @extend %big-font;
+      color: global.$black;
+      width: 319px;
+      height: 72px;
+      margin-top: 40px;
+      margin-bottom: 24px;
+    }
+
+    .name-input {
+      background-image: url(../../../../public/assets/icons/User.png);
+      margin-bottom: 10px;
+    }
+
+    .email-input {
+      background-image: url(../../../../public/assets/icons/EnvelopeSimple.png);
+    }
+
+    input {
+      background-color: global.$white;
+      background-repeat: no-repeat;
+      background-position: left 20px center;
+      width: 343px;
+      height: 48px;
+    }
+
+    button {
+        margin-top: 32px;
+    }
+  }
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  padding-left: 72px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  padding-left: 72px;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  padding-left: 72px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  padding-left: 72px;
+}

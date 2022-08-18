@@ -1,1 +1,0 @@
-//pequeno e médio

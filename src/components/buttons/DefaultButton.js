@@ -2,7 +2,11 @@
 import "../../css/components/buttons/defaultButton.css";
 
 const DefaultButton = (props) => {
-  return <button className={`default-button-styling ${props.buttonType}`}>{props.buttonName}</button>;
+  return (
+    <button className={`default-button-styling ${props.buttonType}`}>
+      {props.buttonName}
+    </button>
+  );
 };
 
 export default DefaultButton;

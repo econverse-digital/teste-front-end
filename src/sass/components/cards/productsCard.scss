@@ -1,0 +1,102 @@
+@use "../../global";
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 414px;
+}
+
+.product-card-base {
+  display: flex;
+  justify-content: center;
+}
+
+.product-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+}
+
+.product-discount-percentage-box {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+}
+
+.product-discount-percentage-text {
+  margin: 0;
+  margin-right: 90px;
+  margin-left: -90px;
+  height: 20px;
+  font-weight: 700;
+  text-align: center;
+  top: 1240px;
+  @extend %small-font;
+  padding: 10px 0px;
+  color: global.$primary-color;
+  background-color: global.$background-color;
+  border-radius: 6px;
+}
+
+.product-love-icon {
+  margin: 0;
+  position: absolute;
+  margin-right: -90px;
+  margin-left: 90px;
+}
+
+.product-name {
+  @extend %small-font;
+  margin-top: 10px;
+  color: global.$black;
+  font-weight: 300;
+  height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product-old-price {
+  @extend %medium-one-font;
+  margin: 0;
+  color: global.$gray;
+  font-weight: 400;
+  text-decoration-line: line-through;
+}
+
+.product-price {
+  height: 33px;
+  font-weight: 700;
+  color: global.$black;
+  margin-bottom: 4px;
+  .format-one {
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 3px;
+  }
+  .format-two {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
+
+.product-subscriber-price {
+  height: 41px;
+  margin-bottom: 11px;
+  p {
+    @extend %medium-one-font;
+    color: global.$primary-color;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  span {
+    color: global.$black;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+}

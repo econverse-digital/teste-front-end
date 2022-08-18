@@ -23,12 +23,12 @@ const MainBanner = () => {
         <img
           className="three-dots-spacing"
           src="./assets/icons/ThreeDots.png"
-          alt="Três pontos"
+          alt="Três pontos de rolagem"
         />
         <img
           width={32}
           height={32}
-          className="middle-arrow-spacing"
+          className="middle-arrow-spacing-and-styling"
           src="./assets/icons/ArrowTwo.png"
           alt="Seta indicando abaixo"
         />

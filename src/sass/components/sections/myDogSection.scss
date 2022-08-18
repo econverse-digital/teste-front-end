@@ -1,0 +1,45 @@
+@use "./categorySection";
+@use "../../global";
+
+.my-dog-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 64px;
+  align-items: center;
+  width: 1280px;
+}
+
+.my-dog-container {
+  width: 1168px;
+}
+
+.nav-bar-left-arrow {
+  transform: rotate(180deg);
+}
+
+.my-dog-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.product-cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+}
+
+.title-underlined-button {
+  @extend %medium-two-font;
+  color: global.$primary-color;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration-line: underline;
+}
+

@@ -1,0 +1,134 @@
+.product-discount-percentage-text, .product-name {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.product-old-price, .product-subscriber-price p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+html,
+body {
+  font-family: poppins, sans-serif;
+  color: #9f9f9f;
+}
+html h1,
+body h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 800;
+  color: #ffffff;
+}
+html h2,
+body h2 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+html p,
+body p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 414px;
+}
+
+.product-card-base {
+  display: flex;
+  justify-content: center;
+}
+
+.product-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+}
+
+.product-discount-percentage-box {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+}
+
+.product-discount-percentage-text {
+  margin: 0;
+  margin-right: 90px;
+  margin-left: -90px;
+  height: 20px;
+  font-weight: 700;
+  text-align: center;
+  top: 1240px;
+  padding: 10px 0px;
+  color: #fbb900;
+  background-color: #fef6e7;
+  border-radius: 6px;
+}
+
+.product-love-icon {
+  margin: 0;
+  position: absolute;
+  margin-right: -90px;
+  margin-left: 90px;
+}
+
+.product-name {
+  margin-top: 10px;
+  color: #4d4d4d;
+  font-weight: 300;
+  height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product-old-price {
+  margin: 0;
+  color: #9f9f9f;
+  font-weight: 400;
+  text-decoration-line: line-through;
+}
+
+.product-price {
+  height: 33px;
+  font-weight: 700;
+  color: #4d4d4d;
+  margin-bottom: 4px;
+}
+.product-price .format-one {
+  font-size: 18px;
+  line-height: 27px;
+  margin-right: 3px;
+}
+.product-price .format-two {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.product-subscriber-price {
+  height: 41px;
+  margin-bottom: 11px;
+}
+.product-subscriber-price p {
+  color: #fbb900;
+  text-align: center;
+  font-weight: 700;
+}
+.product-subscriber-price span {
+  color: #4d4d4d;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: 600;
+}

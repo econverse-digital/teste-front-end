@@ -3,20 +3,28 @@ body {
   font-family: poppins, sans-serif;
   color: #9f9f9f;
 }
-
-h1 {
+html h1,
+body h1 {
   margin: 0;
   font-size: 40px;
   line-height: 60px;
   font-weight: 800;
   color: #ffffff;
 }
-
-h2 {
+html h2,
+body h2 {
+  margin: 0;
   font-size: 32px;
   line-height: 48px;
   font-weight: 700;
   color: #4d4d4d;
+}
+html p,
+body p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 .main-banner-container {
@@ -49,10 +57,11 @@ h2 {
   top: 438px;
   left: 606px;
 }
-.main-banner-container .middle-arrow-spacing {
+.main-banner-container .middle-arrow-spacing-and-styling {
   position: absolute;
   top: 474px;
   left: 624px;
+  box-shadow: 0px 6px 16px rgba(179, 134, 0, 0.24);
 }
 .main-banner-container .right-arrow-spacing {
   position: absolute;

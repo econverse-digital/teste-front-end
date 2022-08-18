@@ -1,0 +1,13 @@
+.nav-bar-container {
+  width: 681px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-buttons {
+  width: 617px;
+  display: flex;
+  justify-content: space-between;
+}

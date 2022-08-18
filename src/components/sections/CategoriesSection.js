@@ -1,9 +1,9 @@
 import SectionTitle from "../SectionTitle";
 import CategoriesCard from "../cards/CategoriesCard"
 import {categoriesInfos} from "../../helpers/sections"
-import '../../css/components/sections/categorySection.css'
+import '../../css/components/sections/categoriesSection.css'
 
-const CategorySection = () => {
+const CategoriesSection = () => {
   const mappedCategoriesCards = categoriesInfos.map((category) => {
     return (
       <CategoriesCard
@@ -42,4 +42,4 @@ const CategorySection = () => {
   );
 };
 
-export default CategorySection;
+export default CategoriesSection;

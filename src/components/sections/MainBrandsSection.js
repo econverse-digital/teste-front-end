@@ -15,8 +15,22 @@ const MainBrandsSection = () => {
         customizedTitleButton="Ver todos"
       />
       <div className="brand-cards-container">
+        <img
+          width={32}
+          height={32}
+          className="category-left-arrow"
+          src="./assets/icons/ArrowTwo.png"
+          alt="Seta para esquerda"
+        />
         {mappedBrandsCards}
         {mappedBrandsCards}
+        <img
+          width={32}
+          height={32}
+          className="category-right-arrow"
+          src="./assets/icons/ArrowTwo.png"
+          alt="Seta para direita"
+        />
       </div>
     </section>
   );

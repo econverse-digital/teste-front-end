@@ -35,7 +35,36 @@ export const productFilterButtons = [
 ];
 
 export const brandsLogos = [
-  { logo: "Buddy.png", name:"Buddy", id: "0"},
-  { logo: "PetGames.png", name:"Pet Games", id: "1"},
-  { logo: "Kong.png", name:"Kong", id: "2"},
-]
+  { logo: "Buddy.png", name: "Buddy", id: "0" },
+  { logo: "PetGames.png", name: "Pet Games", id: "1" },
+  { logo: "Kong.png", name: "Kong", id: "2" },
+];
+
+export const articlesList = [
+  {
+    cardImage: "LeashDogTwo.png",
+    imageDescription: "Cachorro em uma coleira sendo segurado",
+    id: "0",
+  },
+  {
+    cardImage: "HuggingDog.png",
+    imageDescription: "Cachorro abraçando uma mulher",
+    id: "1",
+  },
+  {
+    cardImage: "GreetingDog.png",
+    imageDescription: "Cachorro cumprimentando homem",
+    id: "2",
+  },
+  {
+    cardImage: "TeddyDog.png",
+    imageDescription: "Cachorro com um bichinho de pelúcia",
+    id: "3",
+  },
+];
+
+export const imagesSource = [
+  { imageSource: "EatingDog.png", imageDescription: "Cachorro comendo ração", id: "0" },
+  { imageSource: "TeddyDogTwo.png", imageDescription: "Cachorro com um bichinho de pelúcia", id: "1" },
+  { imageSource: "ChewingDog.png", imageDescription: "Cachorro mastigando", id: "2" },
+];

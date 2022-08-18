@@ -1,13 +1,15 @@
 import Header from "./components/layout/Header";
 import MainBanner from "./components/layout/MainBanner";
-import CategorySection from "./components/sections/CategorySection";
+import CategoriesSection from "./components/sections/CategoriesSection";
 import MyDogSection from "./components/sections/MyDogSection";
-import SectionTitle from "./components/SectionTitle";
 import { getProducts } from "./services/products";
 import React, { useState, useEffect } from "react";
 import "./css/global.css";
 import DefaultModal from "./components/modal/DefaultModal";
 import MainBrandsSection from "./components/sections/MainBrandsSection";
+import HighlightsSection from "./components/sections/HighlightsSection";
+import ArticlesSection from "./components/sections/ArticlesSection";
+import InstagramSection from "./components/sections/InstagramSection";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -29,7 +31,7 @@ function App() {
       />
       <Header />
       <MainBanner />
-      <CategorySection />
+      <CategoriesSection />
       <MyDogSection
         products={products}
         setIsModalOn={setIsModalOn}
@@ -37,18 +39,9 @@ function App() {
         setModalImage={setModalImage}
       />
       <MainBrandsSection />
-      <section>
-        CARDS DE DESTAQUE
-        <article>Parceiros</article>
-        <article>Assinatura Cãoselheiro </article>
-      </section>
-      <section>
-        <SectionTitle title="Confira o nosso Blog" />
-        <article>cards de artigo</article>
-      </section>
-      <section>
-        <SectionTitle title="Instagram" />
-      </section>
+      <HighlightsSection />
+      <ArticlesSection />
+      <InstagramSection />
       <section>
         INSCRIÇÃO
         {/* <img>imagem cachorrin</img> */}

@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
     "build": "react-scripts build",
     "gulp-build": "gulp"
   },

@@ -107,6 +107,7 @@ body p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1168px;
 }
 
 h4 {

@@ -1,0 +1,86 @@
+@use "../../global";
+
+section {
+  margin-bottom: 88px;
+}
+
+.highlights-container {
+  width: 1280px;
+  display: flex;
+  height: 350px;
+}
+
+.highlights-partners-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlights-partners-article {
+  width: 574px;
+  height: 350px;
+  margin-left: 56px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      #000000cb 85.04%
+    ),
+    url(../../../../public/assets/images/RunningDog.png);
+  opacity: 0.4, 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: global.$white;
+  padding-left: 40px;
+
+  h1 {
+    padding-top: 114px;
+  }
+
+  p {
+    padding-top: 8px;
+    padding-bottom: 32px;
+    width: 181px;
+    height: 48px;
+    font-weight: 400;
+  }
+}
+
+.highlights-subscription-article {
+  width: 630px;
+  height: 350px;
+  margin-left: 10px;
+  margin-right: -100px;
+  background-color: global.$background-color;
+  border-radius: 20px 0px 0px 20px;
+  padding-left: 50px;
+
+  h1 {
+    color: global.$black;
+    padding-top: 46px;
+    width: 199px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  p {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    width: 295px;
+    height: 72px;
+    font-weight: 400;
+  }
+}
+
+.highlights-subscription-article-image {
+  position: relative;
+  right: 0%;
+  margin-top: -25px;
+}
+
+.highlights-three-dots-icon {
+  margin-top: 24px;
+  margin-left: 309px;
+}

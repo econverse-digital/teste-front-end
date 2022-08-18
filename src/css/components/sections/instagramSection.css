@@ -1,0 +1,14 @@
+.instagram-section-container {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instagram-images-container {
+  display: flex;
+  overflow: hidden;
+  height: 243px;
+  width: 1280px;
+  margin-top: 32px;
+}

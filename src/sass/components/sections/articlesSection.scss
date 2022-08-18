@@ -1,0 +1,23 @@
+@use "../../global";
+
+.articles-section-container {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articles-container {
+  display: flex;
+  .adjust-arrow {
+    margin-top: 169px;
+  }
+}
+
+.articles-cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1168px;
+  margin-top: 25px;
+  margin-bottom: 32px;
+}

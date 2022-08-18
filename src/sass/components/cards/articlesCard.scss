@@ -1,0 +1,37 @@
+@use "../../global";
+
+.article-card-container {
+  width: 277px;
+
+  img {
+    margin-bottom: -4px;
+  }
+}
+
+.article-card-info {
+  background-color: global.$background-color;
+  border-radius: 0px 0px 20px 20px;
+  padding-left: 24px;
+  height: 259px;
+
+  h2 {
+    @extend %medium-two-font;
+    color: global.$black;
+    font-weight: 700;
+    width: 229px;
+    height: 60px;
+    padding-top: 24px;
+  }
+
+  p {
+    @extend %small-font;
+    font-weight: 400;
+    width: 229px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+
+  button {
+    margin-bottom: 24px;
+  }
+}

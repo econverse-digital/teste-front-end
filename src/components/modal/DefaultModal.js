@@ -1,6 +1,16 @@
 import "../../css/components/modal/defaultModal.css";
 
 const DefaultModal = (props) => {
+  const formatPrice = (price) => {
+    const stringPrice = price.toString();
+    const lengthPrice = stringPrice.length;
+    const formattedPrice =
+    stringPrice.substring(0, lengthPrice - 2) +
+      "," +
+      stringPrice.substring(lengthPrice - 2);
+    return formattedPrice;
+  };
+
   return (
     <div
       className={
@@ -18,10 +28,10 @@ const DefaultModal = (props) => {
         </div>
         <div className="modal-info">
           <h1 className="modal-info-product">{props.modalData.productName}</h1>
-          <h1 className="modal-info-price">R$ {props.modalData.price}</h1>
-          <p>
-            {props.modalData.descriptionShort}
-          </p>
+          <h1 className="modal-info-price">
+            R$ {props.modalData.price && formatPrice(props.modalData.price)}
+          </h1>
+          <p>{props.modalData.descriptionShort}</p>
           <h2>Veja mais detalhes do produto</h2>
           <h3>Adicionar ao carrinho</h3>
         </div>

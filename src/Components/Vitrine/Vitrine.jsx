@@ -50,13 +50,15 @@ const Vitrine = ({ setProduto }) => {
                       De R$ {produto.price.toLocaleString("pt-BR")}
                     </Style.PrecoOriginal>
                     <Style.PrecoAtual>
-                      Por R${(
+                      Por R$
+                      {(
                         produto.price -
                         (produto.price * 40) / 100
                       ).toLocaleString("pt-BR")}
                     </Style.PrecoAtual>
                     <Style.PrecoAssinante>
-                      R${(
+                      R$
+                      {(
                         produto.price -
                         (produto.price * 50) / 100
                       ).toLocaleString("pt-BR")}

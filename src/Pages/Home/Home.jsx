@@ -7,18 +7,21 @@ import Header from "../../Components/Header/Header";
 import Instagram from "../../Components/Instagram/Instagram";
 import Introducao from "../../Components/Introducao/Introducao";
 import Marcas from "../../Components/Marcas/Marcas";
+import Modal from "../../Components/Modal/Modal";
 import Parceiros from "../../Components/Parceiros/Parceiros";
 import Vitrine from "../../Components/Vitrine/Vitrine";
 import { MainContainer } from "./styled";
 
 const Home = () => {
   const [produto, setProduto] = useState("")
+  // const [modal, setModal] = useState(false)
 
   return (
     <MainContainer>
       <Header />
       <Introducao />
       <Categorias />
+      {produto ? <Modal  produto={produto} setProduto={setProduto}/> : null}
       <Vitrine setProduto={setProduto}/>
       <Marcas />
       <Parceiros />
@@ -26,6 +29,7 @@ const Home = () => {
       <Instagram />
       <Contato />
       <Footer />
+      {/* <Modal  produto={produto}/> */}
     </MainContainer>
   );
 };

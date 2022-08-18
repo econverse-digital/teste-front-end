@@ -5,7 +5,6 @@ import img2 from "../../Assets/img/blog/image24.png";
 import img3 from "../../Assets/img/blog/image44.png";
 import img4 from "../../Assets/img/blog/image63.png";
 
-
 const Blog = () => {
   return (
     <Style.MainContainer>
@@ -48,7 +47,6 @@ const Blog = () => {
           <button>LER ARTIGO</button>
         </Style.Publication>
       </Style.BoxBlog>
-      
     </Style.MainContainer>
   );
 };

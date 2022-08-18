@@ -2,10 +2,6 @@ import React from "react";
 import * as Style from "./styled";
 
 const Modal = ({ produto, setProduto }) => {
-  const ClickX = () => {
-    setProduto("");
-  };
-
   return (
     <Style.MainContainer>
       <Style.BoxModal>
@@ -21,7 +17,7 @@ const Modal = ({ produto, setProduto }) => {
             </Style.DescriptionShort>
             <Style.Details>Veja mais detalhes do produto</Style.Details>
           </div>
-          <button onClick={ClickX}>X</button>
+          <button onClick={() => setProduto("")}>X</button>
         </Style.ModalContent>
       </Style.BoxModal>
     </Style.MainContainer>

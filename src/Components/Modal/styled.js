@@ -17,17 +17,17 @@ export const BoxModal = styled.div`
 `;
 export const ModalContent = styled.div`
   display: flex;
-  width: 769px;
-  height: 355px;
+  width: 48.063rem;
+  height: 22.188rem;
   background: #ffffff;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   margin: auto;
   font-family: "Lato";
   font-style: normal;
   button {
     align-self: flex-start;
     font-size: 1rem;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     border: none;
     transition: 0.2s;
     background-color: white;
@@ -39,45 +39,45 @@ export const ModalContent = styled.div`
     }
   }
   img {
-    width: 180px;
-    height: 180px;
-    margin: 73px 128px 102px 82px;
+    width: 11.25rem;
+    height: 11.25rem;
+    margin: 4.563rem 8rem 6.375rem 5.125rem;
   }
 `;
 
 export const ProductName = styled.div`
-  margin: 67px 30px 25px 0;
-  width: 323px;
-  height: 20px;
+  margin: 4.188rem 1.875rem 1.563rem 0;
+  width: 20.188rem;
+  height: 1.25rem;
 
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 100%;
   letter-spacing: 0.05em;
   color: #041e50;
 `;
 export const Price = styled.div`
-  width: 113px;
-  height: 20px;
-  margin-bottom: 21px;
+  width: 7.063rem;
+  height: 1.25rem;
+  margin-bottom: 1.313rem;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 100%;
   letter-spacing: 0.05em;
   color: #041e50;
 `;
 export const DescriptionShort = styled.div`
   font-weight: 400;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 150.5%;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   letter-spacing: 0.05em;
   color: #222222;
 `;
 
 export const Details = styled.div`
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 100%;
   letter-spacing: 0.05em;
   color: #041e50;

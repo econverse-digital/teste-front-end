@@ -12,7 +12,7 @@ const Parceiros = () => {
         <p>Lorem ipsum dolor sit amet. dolor sit ame</p>
         <button>CONFIRA</button>
       </Style.BoxParceiro>
-      <Style.BoxAssinatura>
+      <Style.BoxAssinatura className="Assinatura">
         <div>
           <h4>Assinatura Cãoselheiro</h4>
           <p>

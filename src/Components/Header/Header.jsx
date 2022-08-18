@@ -35,12 +35,12 @@ const Header = () => {
       <Style.Search>
         <Style.ImgLogo src={caoselheiro} alt="logo site" />
         <Style.BoxSearch>
-          <span>O que você esta buscando?</span>
+          <input type="text" placeholder=" O que você esta buscando?"/>
           <img src={lupa} alt="pesquisar" />
         </Style.BoxSearch>
         <Style.InfoSearch>
-          <img src={group} alt="" />
-          <img src={heart} alt="" />
+          <img src={group} alt="group" />
+          <img src={heart} alt="favorite" />
           <img src={user} alt="user" />
           <img src={cart} alt="card" />
         </Style.InfoSearch>

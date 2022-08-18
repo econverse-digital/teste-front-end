@@ -5,7 +5,7 @@ import introducao from "../../Assets/img/introducao/image48.png";
 const Introducao = () => {
   return (
     <Style.MainContainer>
-      <img src={introducao} alt="" />
+      <img src={introducao} alt="mulher sorrindo com cachorro no colo" />
       <span className="left">ᐸ</span>
       <span className="right">ᐳ</span>
       <Style.Info>

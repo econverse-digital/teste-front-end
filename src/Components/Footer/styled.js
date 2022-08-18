@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   display: flex;
   color: #ffffff;
-  margin-top: 87px;
+  margin-top: 5.438rem;
 `;
 
 export const RedesContainer = styled.div`
@@ -14,7 +14,7 @@ export const RedesContainer = styled.div`
   background-color: #fbb900;
   width: 40%;
   border-right: 1px solid #ffffff;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 `;
 
 export const BoxRedes = styled.div`
@@ -22,28 +22,28 @@ export const BoxRedes = styled.div`
   flex-direction: column;
   span {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    margin: 48px 85px 30px 85px;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+    margin: 3rem 5.313rem 1.875rem 5.313rem;
   }
   img {
-    margin: 0 15px 0 15px;
+    margin: 0 0.938rem 0 0.938rem;
   }
 `;
 
 export const BoxCao = styled.div`
-  margin: 50px 0 24px 0;
+  margin: 3.125rem 0 1.5rem 0;
   span {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    margin: 50px 0 24px 0;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+    margin: 3.125rem 0 1.5rem 0;
   }
   p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    margin: 24px 75px 0 75px;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    margin: 1.5rem 4.688rem 0 4.688rem;
   }
 `;
 
@@ -57,24 +57,24 @@ export const BoxInfo = styled.div`
   display: flex;
   justify-content: space-around;
   background-color: #fbb900;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 `;
 
 export const Institucional = styled.div`
   p {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
   }
 `;
 export const Atendimento = styled.div`
   p {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
   }
 `;
 
@@ -92,40 +92,40 @@ export const PagamentoDiv = styled.div`
 
   h5 {
     font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 10px 0 10px 0;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin: 0.625rem 0 0.625rem 0;
   }
   .box {
-    width: 250px;
+    width: 15.625rem;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   div {
     display: flex;
     justify-content: center;
     background-color: white;
-    width: 50px;
-    height: 30px;
-    border-radius: 5px;
-    margin: 5px 15px;
+    width: 3.125rem;
+    height: 1.875rem;
+    border-radius: 0.313rem;
+    margin: 0.313rem 0.938rem;
   }
 `;
 
 export const Seguranca = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   span {
     font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 1.875rem;
   }
   img {
-    width: 83.33px;
-    height: 42px;
+    width: 5.208rem;
+    height: 2.625rem;
   }
 `;
 
@@ -138,9 +138,9 @@ export const BoxEndereco = styled.div`
 
   span {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    width: 217px;
-    height: 54px;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    width: 13.563rem;
+    height: 3.375rem;
   }
 `;

@@ -10,6 +10,7 @@ const Categorias = () => {
     <Style.MainContainer>
       <h2>Categorias</h2>
       <Style.Dogs>
+        <div>ᐸ</div>
         <Style.Span>
           <img src={dog1} alt="cachorro com bola" />
           <p>Brinquedos</p>
@@ -26,6 +27,7 @@ const Categorias = () => {
           <img src={dog4} alt="cachorro banho" />
           <p>Higiene</p>
         </Style.Span>
+        <div>ᐳ</div>
       </Style.Dogs>
     </Style.MainContainer>
   );

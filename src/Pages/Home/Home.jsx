@@ -14,7 +14,6 @@ import { MainContainer } from "./styled";
 
 const Home = () => {
   const [produto, setProduto] = useState("")
-  // const [modal, setModal] = useState(false)
 
   return (
     <MainContainer>
@@ -29,7 +28,6 @@ const Home = () => {
       <Instagram />
       <Contato />
       <Footer />
-      {/* <Modal  produto={produto}/> */}
     </MainContainer>
   );
 };

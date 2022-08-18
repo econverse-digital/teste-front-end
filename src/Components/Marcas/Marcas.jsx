@@ -8,7 +8,7 @@ const Marcas = () => {
   return (
     <Style.MainContainer>
       <Style.InfoContainer>
-        <h2>Categorias</h2>
+        <h2>Principais marcas</h2>
         <span>Ver todos</span>
       </Style.InfoContainer>
 
